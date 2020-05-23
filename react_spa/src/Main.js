@@ -5,8 +5,8 @@ import {
     HashRouter
   } from "react-router-dom";
   import Home from "./Home";
-  import Stuff from "./Stuff";
-  import Contact from "./Contact";
+  import History from "./History";
+  import Symbolism from "./Symbolism";
   import "./index.css";
 
 
@@ -18,13 +18,13 @@ class Main extends Component {
             <h1>William "Alan" Patterson II</h1>
             <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
-              <li><NavLink to="/stuff">Experience</NavLink></li>
-              <li><NavLink to="/contact">Contact</NavLink></li>
+              <li><NavLink to="/history">History</NavLink></li>
+              <li><NavLink to="/contact">Folklore/Symbolism</NavLink></li>
             </ul>
             <div className="content">
               <Route exact path="/" component={Home}/>
-              <Route path="/stuff" component={Stuff}/>
-              <Route path="/contact" component={Contact}/>
+              <Route path="/history" component={History}/>
+              <Route path="/symbolism" component={Symbolism}/>
             </div>
           </div>
         </HashRouter>
