@@ -26,6 +26,14 @@ import {
 
 //?????? Something else maybe?????  Not so sure, maybe a link to UNC RELI department or something just for the fun of it, or to my own github.
   //We will see what is discussed.
+
+
+  //Schedule: 
+  //
+  //
+  //Tuesday: Finish outline/drafted knowledge/content
+  //Wednesday: format the css for the text
+  //Thursday: Add graphics, properly CSS position wise the website (outside of the conntent maneuvering)
 class Main extends Component {
     render() {
       return (
@@ -35,7 +43,7 @@ class Main extends Component {
             <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
               <li><NavLink to="/history">History</NavLink></li>
-              <li><NavLink to="/contact">Folklore/Symbolism</NavLink></li>
+              <li><NavLink to="/Symbolism">Folklore/Symbolism</NavLink></li>
               <li><NavLink to="/sources">Sources</NavLink></li>
 
             </ul>

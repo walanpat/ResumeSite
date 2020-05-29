@@ -3,6 +3,13 @@ body {
     padding: 20px;
     margin: 0;
   }
+  .center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
   h1, h2, p, ul, li {
     font-family: sans-serif;
   }
